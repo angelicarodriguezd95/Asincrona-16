@@ -1,0 +1,31 @@
+<div class="d-flex flex-column flex-shrink-0 p-3 text-dark bg-light shadow p-3 pocicion" style="width: 280px;height: 100vh;">
+    <a class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none"> 
+      <span class="fs-4">Menu</span>
+    </a>
+    <hr>
+    <ul class="nav  flex-column mb-auto">
+      <li class="nav-item">
+        <a routerLink="" class="nav-link text-dark" [ngClass]="{' active': home, '': !home}" aria-current="page">
+          Home
+        </a>
+      </li>
+      <li>
+        <a routerLink="/peru" class="nav-link text-dark" [ngClass]="{' active': peru, '': !peru}">
+          Peru
+        </a>
+      </li>
+      <li>
+        <a routerLink="/chile" class="nav-link text-dark " [ngClass]="{' active': chile, '': !chile}">
+            
+          Chile
+        </a>
+      </li>
+      <li>
+        <a routerLink="/uruguay" class="nav-link text-dark" [ngClass]="{' active': uruguay, '': !uruguay}">
+            
+          Uruguay
+        </a>
+      </li>
+    </ul>
+    <hr>
+  </div>
